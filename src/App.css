@@ -15,7 +15,7 @@ h3,
 }
 
 h2 {
-    color: #3046c5;
+    color: #18181a;
 }
 
 .card-img-overlay .card-title {
@@ -33,6 +33,7 @@ h2 {
     background-image: linear-gradient(to right, #161618, #2d2d2e, #4a494b, #686769);
     padding: 20px 0;
     margin-top: 2rem;
+    color: white;
 }
 
 
