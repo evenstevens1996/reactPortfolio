@@ -2,7 +2,6 @@ import ACP2 from '../assets/img/ACP2.jpg';
 import ayscfields from '../assets/img/ayscfields.jpg';
 import basin from '../assets/img/basin.jpg';
 import SLP1 from '../assets/img/SLP1.jfif';
-import SSC from '../assets/img/SSC.jfif';
 import sunset from '../assets/img/sunset.png';
 
 export const FIELDS = [
@@ -51,14 +50,5 @@ export const FIELDS = [
         description:
             "You'll never want to leave this hidden gem, deep within the lush Redux Woods."
     },
-    {
-        id: 5,
-        name: 'Summer Set Complex',
-        image: SSC,
-        elevation: 42,
-        featured: true,
-        description:
-            "You'll never want to leave this hidden gem, deep within the lush Redux Woods."
-    }
-
 ];
+

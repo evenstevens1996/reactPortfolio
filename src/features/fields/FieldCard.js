@@ -1,8 +1,8 @@
 import { Card, CardImg, CardImgOverlay, CardTitle } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
-const FieldsCard = ({ fields }) => {
-    const { id, image, name } = fields;
+const FieldCard = ({ field }) => {
+    const { id, image, name } = field;
     return (
         <Link to={`${id}`}>
             <Card>
@@ -18,4 +18,4 @@ const FieldsCard = ({ fields }) => {
         </Link>
     );
 };
-export default FieldsCard;
+export default FieldCard;

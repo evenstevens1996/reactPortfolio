@@ -69,3 +69,12 @@ h2 {
     height: 100%;
     background-color: 'rgba(0, 0, 0, 0.5)';
   }
+
+  .modal-header {
+    background-color: rgb(86, 84, 87);
+    color: white; }
+
+    .modal-body {
+        background-color: rgba(180, 159, 39, 0.76);
+        color: white; }
+  

@@ -10,6 +10,7 @@ import {
 } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
 import UserLoginForm from '../features/user/UserLoginForm';
+import RegisterForm from '../features/register/RegisterForm';
 
 const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -55,9 +56,8 @@ const Header = () => {
                         <div className='text-black'>
                             <h1 className='mb-3'>SS Sports League</h1>
                             <h4 className='mb-3'>Reimagining Sports</h4>
-                            <Button variant='btn-dark' size='lg' href='#!' role='button'>
-                                Register Now!
-                            </Button>
+                            <RegisterForm />
+                            
                         </div>
                     </div>
                 
