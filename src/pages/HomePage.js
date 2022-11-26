@@ -9,8 +9,7 @@ const HomePage = () => {
 
                 <SubHeader current='Home' />
                 <Row>
-                <img src={MiaHamm} 
-                />
+                <img src={MiaHamm} />
             </Row>
                 <Row className='row-content'>
                 <Col sm='6'>
@@ -25,15 +24,15 @@ const HomePage = () => {
                 <Col sm='6'>
                     <Card>
                         <CardHeader className='bg-dark text-white'>
-                            <h3>Facts at a Glance</h3>
+                            <h3>Our Growth</h3>
                         </CardHeader>
                         <CardBody>
                             <dl className='row'>
                                 <dt className='col-6'>Founded</dt>
                                 <dd className='col-6'>October 1, 2017</dd>
-                                <dt className='col-6'>No. of Teams in 2017</dt>
+                                <dt className='col-6'>Number of Teams in 2017</dt>
                                 <dd className='col-6'>10</dd>
-                                <dt className='col-6'>No. of Teams Today</dt>
+                                <dt className='col-6'>Number of Teams Today</dt>
                                 <dd className='col-6'>208</dd>
                             </dl>
                         </CardBody>

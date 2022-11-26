@@ -88,7 +88,7 @@ const UserLoginForm = () => {
                                     {(msg) => <p className='text-danger'>{msg}</p>}
                                 </ErrorMessage>
                             </FormGroup>
-                            <Button type='submit' color='primary'>
+                            <Button type='submit' color='dark'>
                                 Login
                             </Button>
                         </Form>
