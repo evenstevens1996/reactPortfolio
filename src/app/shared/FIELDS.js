@@ -12,7 +12,7 @@ export const FIELDS = [
         elevation: 1233,
         featured: false,
         description:
-            'Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers.'
+            '801 James Donlon Blvd, Antioch, CA 94509'
     },
     {
         id: 1,
@@ -21,7 +21,7 @@ export const FIELDS = [
         elevation: 877,
         featured: false,
         description:
-            'Spend a few sunny days and starry nights beneath a canopy of old-growth firs at this enchanting spot by the Chrome River.'
+            '2200 Wymore Way, Antioch, CA 94509'
     },
     {
         id: 2,
@@ -30,7 +30,7 @@ export const FIELDS = [
         elevation: 2901,
         featured: false,
         description:
-            'Let NuCamp be your guide to this off-the-beaten-path, hike-in-only campground.'
+            "2645 O'Hara Ave, Oakley, CA 94561"
     },
     {
         id: 3,
@@ -39,7 +39,7 @@ export const FIELDS = [
         elevation: 42,
         featured: true,
         description:
-            "You'll never want to leave this hidden gem, deep within the lush Redux Woods."
+            "3150 E Cypress Rd, Oakley, CA 94561"
     },
     {
         id: 4,
@@ -48,7 +48,7 @@ export const FIELDS = [
         elevation: 42,
         featured: true,
         description:
-            "You'll never want to leave this hidden gem, deep within the lush Redux Woods."
+            "655 Sunset Rd, Brentwood, CA 94513"
     },
 ];
 

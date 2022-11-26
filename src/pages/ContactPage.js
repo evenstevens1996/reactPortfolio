@@ -12,9 +12,9 @@ const ContactPage = () => {
                 <Col sm='4'>
                     <h5>Our Address</h5>
                     <address>
-                        1 Nucamp Way
+                        1234 Lone Tree Drive
                         <br />
-                        Seattle, WA 98001
+                        Antioch, CA 94531
                         <br />
                         U.S.A.
                     </address>
@@ -23,17 +23,17 @@ const ContactPage = () => {
                     <a
                         role='button'
                         className='btn btn-link'
-                        href='tel:+12065551234'
+                        href='tel:+19256281234'
                     >
-                        <i className='fa fa-phone' /> 1-206-555-1234
+                        <i className='fa fa-phone' /> 1(925)628-1234
                     </a>
                     <br />
                     <a
                         role='button'
                         className='btn btn-link'
-                        href='mailto:fakeemail@fakeemail.co'
+                        href='mailto:shelbyssoccerleague@gmail.com'
                     >
-                        <i className='fa fa-envelope-o' /> campsites@nucamp.co
+                        <i className='fa fa-envelope-o' /> shelbyssoccerleague@gmail.com
                     </a>
                 </Col>
             </Row>

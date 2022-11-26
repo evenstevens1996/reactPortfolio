@@ -13,10 +13,7 @@ const Footer = () => {
                                 <Link to='/'>Home</Link>
                             </li>
                             <li>
-                                <Link to='/directory'>Directory</Link>
-                            </li>
-                            <li>
-                                <Link to='/about'>About</Link>
+                                <Link to='/directory'>Field Info</Link>
                             </li>
                             <li>
                                 <Link to='/contact'>Contact</Link>
@@ -43,20 +40,14 @@ const Footer = () => {
                         >
                             <i className='fa fa-twitter' />
                         </a>{' '}
-                        <a
-                            className='btn btn-social-icon btn-google'
-                            href='http://youtube.com/'
-                        >
-                            <i className='fa fa-youtube' />
-                        </a>
                     </Col>
                     <Col sm='4' className='text-center'>
                         <a
                             role='button'
                             className='btn btn-link'
-                            href='tel:+12065551234'
+                            href='tel:+19256281234'
                         >
-                            <i className='fa fa-phone' /> 1-206-555-1234
+                            <i className='fa fa-phone' /> +1(925)628-1234
                         </a>
                         <br />
                         <a
@@ -64,7 +55,7 @@ const Footer = () => {
                             className='btn btn-link'
                             href='mailto:notreal@notreal.co'
                         >
-                            <i className='fa fa-envelope-o' /> fields@nucamp.co
+                            <i className='fa fa-envelope-o' /> shelbyssoccerleague@gmail.com
                         </a>
                     </Col>
                 </Row>

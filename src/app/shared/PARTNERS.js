@@ -1,39 +1,39 @@
-import bootStrapLogo from '../assets/img/bootstrap-logo.png';
-import gitLogo from '../assets/img/git-logo.png';
-import mongoLogo from '../assets/img/mongo-logo.png';
-import nodeLogo from '../assets/img/node-logo.png';
+import winCo from '../assets/img/WinCo.jpg';
+import bigFive from '../assets/img/Big5.jfif';
+import tailgaters from '../assets/img/tailgaters.jfif';
+import mountainMikes from '../assets/img/pizza1.jpg'
 
 export const PARTNERS = [
     {
         id: 0,
-        name: 'Bootstrap Outfitters',
-        image: bootStrapLogo,
+        name: 'Winco Foods',
+        image: winCo,
         featured: false,
         description:
-            "Bootstrap Outfitters supplies you with the gear you need at prices you can't beat."
+            "Winco is an employee owned company, that has been suppoerting us since the start."
     },
     {
         id: 1,
-        name: 'Git Out Expeditions',
-        image: gitLogo,
+        name: 'Big 5',
+        image: bigFive,
         featured: false,
         description:
-            'Join Git Out Expeditions to explore new horizons with a group of other adventurers!'
+            'Big 5 has all the sports equipment you need! Stop into your local store today!'
     },
     {
         id: 2,
-        name: 'Mongo Fly Shop',
-        image: mongoLogo,
+        name: 'Tailgaters Spots Bar',
+        image: tailgaters,
         featured: false,
         description:
-            'Need a new fishing pole, a tacklebox, or flies of all kinds? Stop by Mongo Fly Shop.'
+            'Tailgaters offers some of the best food in Brentwood. Stop in after a game and let them know we sent you for a 10% discount!'
     },
     {
         id: 3,
-        name: 'Node Outdoor Apparel',
-        image: nodeLogo,
+        name: 'Mountain Mikes Pizza',
+        image: mountainMikes,
         featured: true,
         description:
-            'From polar fleeces to swimsuits, hiking boots to waders, a visit to Node will be sure to get you covered.'
+            'We all love pizza! Stop into our favorite pizza spot and let them know we sent you.'
     }
 ];

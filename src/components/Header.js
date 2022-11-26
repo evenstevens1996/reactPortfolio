@@ -6,7 +6,6 @@ import {
     NavbarToggler,
     Nav,
     NavItem,
-    Button
 } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
 import UserLoginForm from '../features/user/UserLoginForm';
@@ -28,17 +27,12 @@ const Header = () => {
                         </NavItem>
                         <NavItem>
                             <NavLink className='nav-link' to='/directory'>
-                                <i className='fa fa-list fa-lg' /> Directory
-                            </NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink className='nav-link' to='/about'>
-                                <i className='fa fa-info fa-lg' /> About
+                                <i className='fa fa-list fa-lg' /> Field Info
                             </NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink className='nav-link' to='/contact'>
-                                <i className='fa fa-address-card fa-lg' /> Contact
+                                <i className='fa fa-address-card fa-lg' /> Contact Us
                             </NavLink>
                         </NavItem>
                     </Nav>
